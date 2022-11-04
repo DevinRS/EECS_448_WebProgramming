@@ -37,7 +37,8 @@ function getInput(){
         }
         if(i != 3){
             if(checkRGB(temp[i])){
-                continue;
+                alert("Input values cannot be empty!")
+                return;
             }
             else{
                 alert("RGB value must be between 0-255!");
