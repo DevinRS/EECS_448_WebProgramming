@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="text" id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <borderarea>
+        <h1>Border: </h1>
+        <input type="text" name="red-border" id="red-border" placeholder="R">
+        <input type="text" name="green-border" id="green-border" placeholder="G">
+        <input type="text" name="blue-border" id="blue-border" placeholder="B">
+        <input type="text" name="width-border" id="width-border" placeholder="Width">
+    </borderarea>
+
+    <backgroundarea>
+        <h1>Background: </h1>
+        <input type="text" name="red-bg" id="red-bg" placeholder="R">
+        <input type="text" name="green-bg" id="green-bg" placeholder="G"> 
+        <input type="text" name="blue-bg" id="blue-bg" placeholder="B">
+    </backgroundarea>
+
+    <h4>Current Values: </h4>
+    <p id="current-border">border: rgb(0,0,0), 1px</p>
+    <p id="current-bg">background: rgb(255,255,255)</p>
+    <button onclick="getInput()" id="button">Apply</button>
+    <button onclick="reset()" id="button">Reset</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

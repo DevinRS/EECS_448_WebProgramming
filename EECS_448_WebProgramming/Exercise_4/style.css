@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p.text
+{
+    width: 50vw;
+    height: auto;
+    margin: 2em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+h4
+{
+    margin-top: 2em;
+}
+
+input
+{
+    width: 50px;
+}
+button
+{
+    margin-top: 2em;
+}
