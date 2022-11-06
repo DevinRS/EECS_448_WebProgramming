@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+:root
+{
+    font-size: 16px;
+    font-family: 'Sigmar One';
+    --bg-primary: #6D7DC6;
+    --bg-secondary: #402D59;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    color: white;
+    background-color: var(--bg-primary);
+    transition: background-color 1000ms linear;
+}
+
+body::-webkit-scrollbar
+{
+    width: 1rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: var(--bg-secondary);
+}
+body::-webkit-scrollbar-thumb
+{
+    background: white;
+    border-radius: 2rem;
+}
+
+
+.profilebar
+{
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-secondary);
+    transition: background-color 500ms linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileimage
+{
+    width: 16rem;
+    height: 16rem;
+    margin-top: 4rem;
+}
+
+h5
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 1rem;
+}
+
+.themeselector
+{
+    margin-top: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+}
+
+.theme
+{
+    display: flex;
+
+    width: 16rem;
+    height: 4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main
+{
+    margin-left: 16rem;
+    padding-left: 4rem;
+}
+
+h1
+{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--bg-secondary);
+    margin-right: 4rem;
+}
+
+h2
+{
+    color: white;
+    font-size: 2rem;
+}
+
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+    text-align: justify;
+}
+
+p:hover
+{
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+iframe
+{
+    width: 73vw;
+    height: 73vh;
+}
+
