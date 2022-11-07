@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    height: 100%;
+    overflow: auto;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title
+{
+    height: 10vh;
+    margin-bottom: 10vh;
+}
+
+.row1
+{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2
+{
+    display: flex;
+    justify-content: space-around;
+}
